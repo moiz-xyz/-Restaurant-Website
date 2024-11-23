@@ -1,324 +1,277 @@
-body{
-    margin: 0%;
-    padding: 0%;
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
     background-color: black;
-}
-h1,h2,h3,h4,h5.h6,p{
-    margin: 0%;
-    padding: 0%;
-}
-.logo{
-    background-color: black;
-    width: 100%;
-    height: 100px;
-    display: flex;
-}
-.list{
-    display: flex;
-    padding-left: 200px;
-}
-.logo>img{
-    padding-top: 10px; ;
-    padding-right:auto ;
-    padding-bottom: 30px;
-    padding-left: 180px;
-    height: 80px;
-}
-li{
-    color: white;
-    font-size: medium;
-    padding-top: 50px;
-    padding-left: 10px;
-   list-style-type: none;
-   margin-left: 30px;
-}
-.button{
-    padding-top: 30px;
-    padding-left: 10px;
-}
-.btn1{
-    border: 1px solid white;
-    background-color:transparent;
-    color:white;
-    height: 50px;
-    width: 140px;
-    border-radius: 25px;
-    padding: 5px;
-    margin-left: 20px;
-}
-.btn2{
-    border: 2px solid  rgb(221, 17, 17) ;
-    background-color:red;
-    color: white;
-    height: 50px;
-    width: 150px;
-    border-radius: 25px;
-    margin-left: 10px;
-    font-size: medium;
-    
-}
-#img >img{
-    width: 100%;
-    height: 600px;
-}
-.board{
-    background-color: black;
-    color: white;
-    padding: 0%;
-    margin: 0%;
-}
-#welcome{
     font-family: "Roboto", sans-serif;
     color: white;
-    font-size: 35px;
-text-align: center;
-}
-#welcome>b{
-    font-family: "Matemasie", sans-serif;
-    font-weight: bolder;
-    font-size: 45px;
-}
-#brand{
-    font-family: "Roboto", sans-serif;
-    font-size: 35px;
     text-align: center;
-    padding-top: 10px;
 }
-#brand2{
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 10px;
-}
-.images{
-     display: flex;
-     gap: 10px;
-     margin-left: 350px;
-     padding-top: 20px;
-}
-.images>img{
- height: 170px;
-    width: 20%;
-}
-.order{
-    
-        border: 1px solid white;
-        background-color:transparent;
-        color:white;
-        height: 50px;
-        width: 170px;
-        border-radius: 25px;
-        padding: 5px;
-        margin-left: 360px;
-        margin-top: 30px;   
-        margin-bottom: 200px;
-}
-.order1{
-    border: 1px solid white;
-    background-color:transparent;
-    color:white;
-    height: 50px;
-    width: 170px;
-    border-radius: 25px;
-    padding: 5px;
-    margin-left: 40px;   
-}
-.order2{
-    border: 1px solid white;
-    background-color:transparent;
-    color:white;
-    height: 50px;
-    width: 170px;
-    border-radius: 25px;
-    padding: 10px;
-    margin-left: 40px;   
-    margin-top: 5px;
-}
-.branch{
-    color: white;
-    background-image: url(./360_F_262047156_Hy2QtNB52oR2DETOAcjIjB3FhaqCBjUI.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.branch>h3{
-    padding-top: 50px;
-    text-align: center;
-    font-family: "Matemasie", sans-serif;
-font-size: 60px;
-}
-.branch>h4{
-    text-align: center;
-    font-size: 40px;
-}
-.branch>p{
-    font-family:"Roboto", sans-serif; 
-    margin-left: 350px;
-    padding-top: 10px;
-}
-.branch1{
-    display: flex;
-    margin-top: 50px;
-}
-.islambad{
-    padding-left: 100px;
-}
-#isl{
-    color: orangered;
-    font-size: 20px;
-}
-.islambad> h4>b{
-    font-family: "Matemasie", sans-serif;
-    font-size: larger;
-    font-size: 30px;
-}
-.islambad>h4{
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-}
-#loc{
-    color: gray;
-    padding-top: 30px;
-}
-.linkbutton{
-    margin-top: 50px;
-    display: inline-block;
-      padding: 10px 20px;
-      font-size: 22px;
-      color: white;
-      background-color: black;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 50px;
-      outline: 1px solid blue;
-}
-#islimg{
-    padding-left:100px;
-    width: 70%;
-    height: 100px;   
-}
-.branch2{
-    margin-top: 100px;
-    display: flex;
-}
-.branch3{
-    margin-top: 100px;
-    display: flex;
-}
-h2{
-    font-family: "Matemasie", sans-serif;
- color:white;
- text-align: center;
- font-size: 50px;
- margin-top: 50px;
-}
-h3{
-    font-family: "Roboto", sans-serif;
-    color:white;
-    text-align: center;
-    font-size: 40px;
-    padding-top: 10px;
-}
-.franchises{
-display: flex;
-gap: 30px;
-margin-left: 60px;
-padding-top: 30px;
-}
-.mall{
-  display: flex;
-}
-.f1>h4{
-    font-family: "Matemasie", sans-serif;
-color: white;
-padding-left: 100px;
-font-size:x-large;
-}
-#f2{
-    color: orangered;
-    font-size: 15px;
-    padding-top: 40px;
-padding-left: 150px;
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
 }
-#f3{
-    color:gray;
-    padding-left: 70px;
-    padding-top: 20px;
-}
-.jhelum{
-padding-left: 50px;
-}
-.jhelum>h4{
-    font-family: "Matemasie", sans-serif;
-    color: white;
-    padding-left: 100px;
-    font-size:x-large;  
-}
-.gujarwla{
-    padding-left: 100px;
-}
-.gujarwla>h4{
-    font-family: "Matemasie", sans-serif;
-color: white;
-padding-left: 80px;
-font-size:x-large;
-}
-.field{
-    display: flex ;
-}
-h1{
-    text-align: center;
-    padding-top: 100px;
-     font-family: "Roboto", sans-serif;
-        color: white;
-        font-size:50px;    
-        padding-bottom: 50px; 
-}
-.footer{
-    background-image:url(./360_F_262047156_Hy2QtNB52oR2DETOAcjIjB3FhaqCBjUI.jpg) ;
+
+/* Logo and Header */
+.logo {
     display: flex;
-}
-#flogo{
- padding:20px;
- width: 25%;
- padding-top: 50px ;
- padding-left: 100px;
-}
-#flogo>p{
-    color:grey;
-    padding-top: 20px;
-}
-#sitelink{
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    padding-top: 50px;
-    color: gray ;
-    font-family: "Roboto", sans-serif;
-    width: 15%;
+    background-color: black;
 }
-#sitelink>b{
-    color: white;
-}
-#contact{
-    color: grey;
-    padding: 30px;
-    padding-top: 50px;
-    width: 30%;
-}
-#contact >b{
-    color:white;
-    font-family: "Roboto", sans-serif;
 
+.logo img {
+    height: 70px;
+    max-width: 100%;
 }
-.icons{
-    color: white;
-    padding-top: 50px;
-    font-size: 20px;
 
+.list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
 }
-.icons>i{
+
+li {
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+/* Button Styles */
+.button {
+    padding: 20px 10px 0 10px;
+}
+
+.btn1, .btn2 {
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn1 {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 140px;
+}
+
+.btn2 {
+    border: 2px solid rgb(221, 17, 17);
     background-color: red;
-    border: 10px solid red;
-    border-radius: 100px;
-    font-size: 20px;
-    
+    color: white;
+    width: 150px;
+}
+
+/* Welcome Section */
+#welcome {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#welcome b {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+#brand, #brand2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#brand {
+    font-size: 1.5rem;
+}
+
+#brand2 {
+    font-size: 1.2rem;
+}
+
+/* Image Grid Section */
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.images img {
+    width: 100%;
+    max-height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.order {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 170px;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 20px auto;
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Branch Section */
+.branch {
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.branch h3 {
+    font-size: 2rem;
+}
+
+.branch h4 {
+    font-size: 1.5rem;
+}
+
+.branch1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.islambad {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.linkbutton {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+#flogo, #sitelink, #contact {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icons i {
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+    .logo {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .branch h3 {
+        font-size: 1.8rem;
+    }
+
+    .branch h4 {
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .icons i {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        height: 60px;
+    }
+
+    .images {
+        grid-template-columns: 1fr;
+    }
+
+    .btn1, .btn2 {
+        width: 100%;
+    }
+
+    .footer > div {
+        width: 100%;
+    }
+
+    .branch h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #welcome, #brand, #brand2 {
+        font-size: 1.2rem;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .order {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .icons i {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .branch h3 {
+        font-size: 1.2rem;
+    }
+
+    .branch h4 {
+        font-size: 1rem;
+    }
 }
